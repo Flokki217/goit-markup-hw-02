@@ -1,0 +1,118 @@
+:root {
+  --primary-text-color: #434455;
+  --tittle-color: #2e2f42;
+  --bright-color: #4d5ae5;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--tittle-color);
+}
+.logo span {
+  color: var(--bright-color);
+}
+/* background{color: #F4F4FD} */
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Header */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--bright-color);
+}
+
+.site-nav {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+.feedback .link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.feedback .link:hover,
+.feedback .link:focus {
+  color: var(--bright-color);
+}
+/* Main */
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-tittle {
+  color: #ffffff;
+}
+.pointer {
+  cursor: pointer;
+}
+
+/* Skills */
+.skills-tittle {
+  color: var(--tittle-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Examples */
+.examples-tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--tittle-color);
+}
+/* Team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-list h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--tittle-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer p {
+  color: #e7e9fc;
+}
+.footer .logo {
+  color: #f4f4fd;
+}
+
+/* -------------------Portfolio------------------------------------- */
+
+.portfolio-buttons .item {
+  cursor: pointer;
+  color: var(--bright-color);
+}
+
+.portfolio-list h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--tittle-color);
+}
