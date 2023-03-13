@@ -84,7 +84,8 @@ body {
   color: #ffffff;
   line-height: 1.07;
 }
-.pointer {
+.hero .pointer {
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-style: normal;
   font-weight: 500;
