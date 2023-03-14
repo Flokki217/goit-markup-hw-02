@@ -138,6 +138,7 @@ body {
 .team {
   background-color: #f4f4fd;
 }
+
 .team-tittle {
   font-weight: 700;
   font-size: 36px;
@@ -163,7 +164,6 @@ body {
 }
 .team-item {
   list-style: none;
-  background-color: #ffffff;
 }
 
 /* Footer */
