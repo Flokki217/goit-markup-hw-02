@@ -23,10 +23,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -41,7 +38,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
@@ -56,7 +53,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #434455;
@@ -78,7 +75,6 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -90,7 +86,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -105,13 +101,15 @@ body {
 .secondary-tittle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   line-height: 1.07;
 }
 .skills-section .secondary-tittle {
   line-height: 1.2;
+}
+.skills-list {
+  list-style: none;
 }
 .skill-item {
   font-size: 16px;
@@ -122,12 +120,14 @@ body {
 .examples-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
   line-height: 1.11;
+}
+.examples {
+  list-style: none;
 }
 /* Team */
 .team {
@@ -136,7 +136,6 @@ body {
 .team-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.11;
@@ -149,13 +148,16 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-item h3 {
+.team-item .secondary-tittle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.team-item {
+  list-style: none;
 }
 
 /* Footer */
@@ -170,7 +172,6 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
@@ -189,13 +190,18 @@ body {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #4d5ae5;
+}
+.portfolio-item {
+  list-style: none;
+}
+.portfolio-buttons {
+  list-style: none;
 }
 .works {
   text-decoration: none;
