@@ -16,7 +16,7 @@
   text-decoration: none;
   color: #4d5ae5;
 }
-.logo span {
+.logo .logo-studio {
   color: #2e2f42;
 }
 /* background{color: #F4F4FD} */
@@ -91,8 +91,12 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
 }
-
+.hero .pointer:hover,
+.hero .pointer:focus {
+  color: #404bbf;
+}
 /* Skills */
 
 .skills-main-tittle {
@@ -158,15 +162,17 @@ body {
 }
 .team-item {
   list-style: none;
+  background-color: #ffffff;
 }
 
 /* Footer */
 .footer-section {
   background-color: #2e2f42;
 }
-.footer-section p {
+.footer-item {
   color: #e7e9fc;
 }
+
 .footer-section .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -178,7 +184,7 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
-.footer-section .logo span {
+.footer-section .footer-studio {
   color: #f4f4fd;
 }
 /* -------------------Portfolio------------------------------------- */
@@ -196,6 +202,12 @@ body {
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.portfolio-buttons .item:hover,
+.portfolio-buttons .item:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .portfolio-item {
   list-style: none;
