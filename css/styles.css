@@ -1,6 +1,6 @@
 :root {
 }
-
+/* Не проходить без root автоперевірку-------------------------------------- */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
