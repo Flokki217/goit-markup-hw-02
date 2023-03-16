@@ -19,6 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -85,7 +86,7 @@ body {
 .hero .pointer:hover,
 .hero .pointer:focus {
   color: #404bbf;
-  background-color: #f4f4fd;
+  background-color: #404bbf;
 }
 /* Skills */
 
@@ -106,9 +107,8 @@ body {
   list-style: none;
 }
 .skill-item {
-  font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 /* Examples */
 .examples-tittle {
